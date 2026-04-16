@@ -26,8 +26,16 @@ Each environment was tested with 10 runs using fixed start coordinates (142, 171
 
 Algorithms Compared:
 
-AlgorithmDistanceTimeTurnsTree DepthRRT302.16 units2.70s301106RRT*221.98 units1.34s3448RRT + Dubins422.32 units3.40s120574RRT + Reeds-Shepp359.97 units2.70s107404RRT* + Dubins386.25 units0.76s67641RRT* + Reeds-Shepp342.64 units0.73s41273Ours + Dubins381.66 units0.41s3548Ours + Reeds-Shepp225.57 units0.20s1623
-(Case 1 results — compact parking lot)
+| Algorithm | Distance | Time | Turns | Tree Depth |
+|---|---|---|---|---|
+| RRT | 302.16 units | 2.70s | 30 | 1106 |
+| RRT* | 221.98 units | 1.34s | 3 | 448 |
+| RRT + Dubins | 422.32 units | 3.40s | 120 | 574 |
+| RRT + Reeds-Shepp | 359.97 units | 2.70s | 107 | 404 |
+| RRT* + Dubins | 386.25 units | 0.76s | 67 | 641 |
+| RRT* + Reeds-Shepp | 342.64 units | 0.73s | 41 | 273 |
+| **Ours + Dubins** | 381.66 units | **0.41s** | 35 | 48 |
+| **Ours + Reeds-Shepp** | **225.57 units** | **0.20s** | **16** | **23** |
 
 Key Findings:
 
