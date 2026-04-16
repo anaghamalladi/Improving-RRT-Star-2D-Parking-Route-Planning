@@ -1,4 +1,5 @@
 Improving RRT* for 2D Parking Route Planning
+
 <b>Developer:</b> Anagha Malladi<br>
 <b>Mentors:</b> Prof. Dr. Kin Chung Kwan and Prof. Dr. Haiquan Chen, California State University, Sacramento<br>
 <b>Project Duration:</b> Aug 2024 - May 2025<br>
